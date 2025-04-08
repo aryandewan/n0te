@@ -1,5 +1,5 @@
 import React from 'react'
-import Roadmap from "@/app/(mypages)/roadmap/roadmap";
+import Timeline from "@/app/(mypages)/timeline/timeline";
 
 const timeLine = [
     {
@@ -67,16 +67,11 @@ const timeLine = [
         title: "→ The Japan Arc Begins",
         desc: "A new country, a new chapter. Teaching by day, coding by night. Anime cafes on weekends. This one’s personal."
     },
-    {
-        year: "...",
-        title: "",
-        desc: ""
-    },
 ]
 
 const Page = () => {
     return (
-        <Roadmap timeLine={timeLine}/>
+        <Timeline timeLine={timeLine}/>
     )
 }
 export default Page

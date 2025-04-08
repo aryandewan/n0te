@@ -13,7 +13,11 @@ import gsap from "gsap";
 let hasAnimated = false
 
 const Main = () => {
+    const [isMounted, setIsMounted] = useState(false)
+
     useLayoutEffect(() => {
+        setIsMounted(true)
+
         if (hasAnimated) return ;
         hasAnimated = true;
 
@@ -87,8 +91,8 @@ const Main = () => {
                 sectionName = {`Art Gallery`}
             />
             <Interests
-                containerClass = {`bg-[#121312] border-2 border-[#ad0013] !text-[#a67d43] xl:row-start-3 xl:row-span-2 xl:col-start-4 rounded-[70px] int`}
-                sectionName = {`INTERESTS`}
+                containerClass = {`bg-[#121312] border-2 border-[#ad0013] !text-[#a67d43] row-start-7 xl:row-start-3 xl:row-span-2 xl:col-start-4 rounded-[70px] int`}
+                sectionName = {`TBD`}
             />
             <Time
                 containerClass = {`bg-[#A67D43] xl:col-start-3 xl:row-span-2 rounded-[70px] tline`}

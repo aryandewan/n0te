@@ -1,13 +1,10 @@
 import React from 'react'
-import Card from '@/components/Card'
+import Main from "@/app/(root)/main";
+
 
 const Page = () => {
     return (
-        <>
-            <div className="flex items-center justify-center w-full">
-                <Card/>
-            </div>
-        </>
+        <Main/>
     )
 }
 export default Page
