@@ -3,6 +3,24 @@ import MyProjects from "@/app/(mypages)/projects/MyProjects";
 
 const projects = [
     {
+        name: "Grubify",
+        url: "https://grubify.vercel.app/",
+        preview: "/images/grub.png",
+        tech: [
+            "NestJS",
+            "ReactJS",
+            "Tailwind CSS",
+            "GSAP",
+            "API",
+            "Responsive Design"
+        ],
+        links: [
+            {
+                github: "https://github.com/aryandewan/grubify",
+            }
+        ]
+    },
+    {
         name: "LiveCodeCollab",
         url: "https://aryandewan.github.io/LIVECODECOLLAB/",
         preview: "/images/LCC.png",
