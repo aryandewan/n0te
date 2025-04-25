@@ -21,6 +21,23 @@ const projects = [
         ]
     },
     {
+        name: "Bolt",
+        url: "https://bolt-taupe-two.vercel.app/",
+        preview: "/images/bolt.png",
+        tech: [
+            "NestJS",
+            "TypeScript",
+            "Tailwind CSS",
+            "Context API",
+            "Responsive Design"
+        ],
+        links: [
+            {
+                github: "https://github.com/aryandewan/bolt",
+            }
+        ]
+    },
+    {
         name: "LiveCodeCollab",
         url: "https://aryandewan.github.io/LIVECODECOLLAB/",
         preview: "/images/LCC.png",

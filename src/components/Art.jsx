@@ -15,7 +15,7 @@ const Art = ({containerClass}) => {
                 <div className="w-1/2 flex items-center justify-center">
                     <FiArrowUpLeft className="w-full h-full -translate-x-[20%] -translate-y-[20%]" />
                 </div>
-                <div className="relative w-1/2 aspect-square animate-spin-slow">
+                <div className="relative w-1/2 aspect-square animate-spin [animation-duration:15s]">
                     <Image
                         src="/images/art.png"
                         alt="Art Gallery"
