@@ -32,6 +32,11 @@ const techStack = [
         level: "Intermediate → Expert",
         levelClass: "h-full w-4/5 bg-[#ad0013] rounded-full"
     },
+    {
+        name: "TypeScript",
+        level: "Beginner → Intermediate",
+        levelClass: "h-full w-2/7 bg-[#ad0013] rounded-full"
+    },
 ]
 
 const Page = () => {

@@ -55,11 +55,6 @@ const Techstack = ({techStack}) => {
                             </div>
                         </div>
                     ))}
-                    <div className="w-full">
-                        <div className="flex justify-between text-lg md:text-2xl lg:text-3xl text-[#a67d43] mb-1">
-                            <span className="tech">TypeScript</span><span className="tech italic">...In Progress</span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>

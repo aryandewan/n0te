@@ -7,7 +7,7 @@ const projects = [
         url: "https://grubify.vercel.app/",
         preview: "/images/grub.png",
         tech: [
-            "NestJS",
+            "NextJS",
             "ReactJS",
             "Tailwind CSS",
             "GSAP",
@@ -25,11 +25,10 @@ const projects = [
         url: "https://bolt-taupe-two.vercel.app/",
         preview: "/images/bolt.png",
         tech: [
-            "NestJS",
+            "NextJS",
             "TypeScript",
             "Tailwind CSS",
             "Context API",
-            "Responsive Design"
         ],
         links: [
             {
