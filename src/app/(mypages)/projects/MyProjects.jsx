@@ -109,7 +109,7 @@ const MyProjects = ({ projects }) => {
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 onClick={(e) => e.stopPropagation()}
-                                className="link text-4xl md:text-7xl xl:text-9xl font-rubik text-[#a67d43] xl:font-light"
+                                className="link text-4xl md:text-7xl xl:text-9xl font-outFit text-[#a67d43] xl:font-light"
                             >
                                 {project.name}
                             </Link>
@@ -118,7 +118,7 @@ const MyProjects = ({ projects }) => {
                                 {project.tech.map((tech, index) => (
                                     <span
                                         key={index}
-                                        className="tech relative font-rubik text-[#a67d43] text-base lg:text-xl after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-[#a67d43] after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100"
+                                        className="tech relative font-outFit text-[#a67d43] text-base lg:text-xl after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-[#a67d43] after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100"
                                     >
                                         {tech}
                                     </span>

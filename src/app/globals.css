@@ -25,6 +25,7 @@
   --color-foreground: var(--foreground);
   --font-orbitron: var(--font-orbitron);
   --font-rubik: var(--font-rubik);
+  --font-outFit: var(--font-outFit);
 }
 
 @media (prefers-color-scheme: dark) {

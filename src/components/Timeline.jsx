@@ -11,7 +11,7 @@ const Time = ({ containerClass, sectionName }) => {
             <div className="w-full h-[350px] md:h-[600px] lg:h-[800px] xl:h-full grid grid-cols-3 grid-rows-3 xl:[&>*]:h-37.5">
                 {/* Title Section */}
                 <div className="rounded-[70px] border-2 border-[#121312] col-span-2 flex items-center justify-center">
-                    <h1 className="text-2xl md:text-7xl lg:text-7xl xl:text-5xl font-orbitron text-center">
+                    <h1 className="text-2xl md:text-7xl lg:text-7xl xl:text-5xl font-outFit text-center">
                         {sectionName}
                     </h1>
                 </div>

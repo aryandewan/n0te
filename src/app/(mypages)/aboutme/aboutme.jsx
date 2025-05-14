@@ -78,7 +78,7 @@ const Aboutme = ({ links }) => {
             <div className={`w-full flex items-center justify-center mt-10 relative z-10 ${!isMounted ? 'invisible' : ''}`}>
                 <div className="w-[85%] flex flex-col gap-30">
                     <div className="flex flex-row gap-5 justify-end ">
-                        <p className="text-[#121312] font-rubik text-lg md:text-xl text-justify md:w-1/2 para">
+                        <p className="text-[#121312] font-outFit text-lg md:text-xl text-justify md:w-1/2 para">
                             I'm a front-end web developer with a passion for building sleek, interactive UIs. I enjoy crafting creative digital experiences, exploring Japanese culture, and constantly pushing my skills forward. Right now, I’m focused on leveling up in tech while planning my next big move.
                         </p>
                     </div>
@@ -89,7 +89,7 @@ const Aboutme = ({ links }) => {
                                 <Link
                                     key={index}
                                     href={link.href}
-                                    className="link relative font-rubik text-[#121312] text-xl after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-[#121312] after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-[#121312] cursor-pointer"
+                                    className="link relative font-outFit text-[#121312] text-xl after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-[#121312] after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-[#121312] cursor-pointer"
                                 >
                                     {link.name}
                                 </Link>
@@ -101,7 +101,7 @@ const Aboutme = ({ links }) => {
                         <a
                             href="/Resume.pdf"
                             download="Resume.pdf"
-                            className="cv relative flex flex-row items-center font-rubik text-[#121312] text-xl after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-[#121312] after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-[#121312] cursor-pointer"
+                            className="cv relative flex flex-row items-center font-outFit text-[#121312] text-xl after:absolute after:-bottom-0.5 after:left-0 after:h-[2px] after:w-full after:origin-bottom-right after:scale-x-0 after:bg-[#121312] after:transition-transform after:duration-300 after:ease-[cubic-bezier(0.65_0.05_0.36_1)] hover:after:origin-bottom-left hover:after:scale-x-100 dark:after:bg-[#121312] cursor-pointer"
                         >
                             <FaArrowDown className="text-base" /> curriculum vitae
                         </a>

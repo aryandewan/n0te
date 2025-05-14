@@ -34,20 +34,20 @@ const Hero = ({ containerClass, sectionName }) => {
 
             <div className="relative z-10 p-5 flex flex-col justify-between h-[400px] md:h-full">
                 <div className="flex flex-col">
-                    <h1 className="text-2xl md:text-4xl xl:text-7xl font-semibold font-orbitron">
+                    <h1 className="text-2xl md:text-4xl xl:text-7xl font-semibold font-outFit">
                         ARYAN DEWAN
                         <span className="font-light text-sm md:text-xl xl:text-3xl font-rubik">
               {" "}
                             (n0te)
             </span>
                     </h1>
-                    <p className="text-lg xl:text-2xl font-rubik">
+                    <p className="text-lg xl:text-2xl font-outFit">
                         FRONT-END DEVELOPER
                     </p>
                 </div>
 
                 <div className="self-end text-justify md:w-1/3 lg:w-1/2 xl:w-1/4 xl:h-1/2">
-                    <p className="text-lg lg:text-2xl font-rubik">
+                    <p className="text-lg lg:text-2xl font-outFit">
                         <sup className="text-2xl md:text-4xl lg:text-6xl">
                             <FaQuoteLeft />
                         </sup>

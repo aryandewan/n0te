@@ -58,7 +58,7 @@ const Techstack = ({techStack}) => {
                 </Link>
             </div>
             <div className="w-full flex items-center justify-center">
-                <div className="w-[85%] font-rubik flex flex-col items-center justify-center gap-10">
+                <div className="w-[85%] font-outFit flex flex-col items-center justify-center gap-10">
                     {techStack.map((tech, index) => {
                         const IconComponent = iconMap[tech.icon];
                         return (

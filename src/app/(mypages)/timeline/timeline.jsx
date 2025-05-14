@@ -65,24 +65,24 @@ const Timeline = ({ timeLine }) => {
             </div>
 
             <div className="wrapper flex w-full h-full items-center justify-center relative mt-5 md:mt-0">
-                <div className="w-[85%] font-rubik flex gap-5 lg:gap-20 xl:gap-5 items-center justify-center relative h-full">
+                <div className="w-[85%] font-outFit flex gap-5 lg:gap-20 xl:gap-5 items-center justify-center relative h-full">
                     {timeLine.map((item, index) => (
                         <div
                             key={index}
                             className="absolute w-full top-0 h-full timeStamp bg-[#a67d43] flex items-start md:items-center justify-center"
                         >
                             <div className="relative w-full flex flex-col lg:flex-row justify-between bg-[#a67d43]">
-                                <h1 className="year font-rubik flex flex-col md:flex-row justify-center items-start max-lg:text-center text-[12rem] md:text-[17rem] xl:text-[35rem] leading-none font-extralight text-[#121312] opacity-10">
+                                <h1 className="year font-outFit flex flex-col md:flex-row justify-center items-start max-lg:text-center text-[12rem] md:text-[17rem] xl:text-[35rem] leading-none font-extralight text-[#121312] opacity-10">
                                     {[...item.year.toString()].map((char, i) => (
                                         <span key={i}>{char}</span>
                                     ))}
                                 </h1>
 
                                 <div className="absolute md:relative lg:absolute right-0 flex flex-col md:flex-row lg:flex-col gap-5 items-end md:items-start justify-center lg:w-1/2 z-10">
-                                    <h1 className="font-rubik text-xl md:text-2xl xl:text-5xl text-[#ad0013] w-1/2 lg:w-full">
+                                    <h1 className="font-outFit text-xl md:text-2xl xl:text-5xl text-[#ad0013] w-1/2 lg:w-full">
                                         {item.title}
                                     </h1>
-                                    <p className="font-rubik text-base md:text-xl xl:text-4xl font-light text-[#121312] w-1/2 lg:self-end lg:text-justify">
+                                    <p className="font-outFit text-base md:text-xl xl:text-4xl font-light text-[#121312] w-1/2 lg:self-end lg:text-justify">
                                         {item.desc}
                                     </p>
                                 </div>
