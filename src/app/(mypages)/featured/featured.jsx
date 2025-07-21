@@ -7,19 +7,11 @@ import { ArrowUpRight, Dot } from "lucide-react";
 import { projects } from "@/app/(mypages)/projects/page";
 import Link from "next/link";
 import { Icons } from "@/app/(mypages)/aboutme/aboutme";
-import ImageCarousel from "@/components/ImageCarousel";
 import { motion } from "motion/react";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(useGSAP, ScrollTrigger);
-
-const kotaeImg = [
-  "/images/kotae-mock-1.jpg",
-  "/images/kotae-mock-2.jpg",
-  "/images/kotae-mock-3.jpg",
-  "/images/kotae-mock-4.jpg",
-];
 
 const Featured = () => {
   return (
