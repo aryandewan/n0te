@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useRef } from "react";
+import React from "react";
 import { mono } from "@/app/fonts";
 import Image from "next/image";
 import { ArrowUpRight, Dot } from "lucide-react";
@@ -30,13 +30,15 @@ const Featured = () => {
         <h1 className="text-base md:text-2xl lg:text-4xl xl:text-6xl font-bold self-start">
           FEATURED PR0JECTS (4)
         </h1>
-        <div
-          className="grid md:grid-cols-2 w-full gap-10"
-        >
-          <motion.div
-            className="md:col-span-2 rounded-4xl overflow-hidden relative"
-          >
-            <ImageCarousel images={kotaeImg} interval={6000} />
+        <div className="grid md:grid-cols-2 w-full gap-10">
+          <motion.div className="md:col-span-2 rounded-4xl overflow-hidden relative">
+            <Image
+              src="/images/kotae-mock-4.jpg"
+              alt="kotae-mock-1"
+              width={1500}
+              height={1500}
+              className="object-cover w-full rounded-t-4xl"
+            />
             <div className="w-full bg-black p-5 flex flex-col gap-5 xl:gap-0 lg:flex-row justify-between border-1 border-white rounded-b-4xl">
               <div className="space-y-5">
                 <h1>PROJECT 01</h1>
@@ -72,9 +74,7 @@ const Featured = () => {
               </div>
             </div>
           </motion.div>
-          <motion.div
-            className="rounded-4xl overflow-hidden"
-          >
+          <motion.div className="rounded-4xl overflow-hidden">
             <Image
               src="/images/grub-mock-1.jpg"
               alt="grub-mock-1"
@@ -117,9 +117,7 @@ const Featured = () => {
               </div>
             </div>
           </motion.div>
-          <motion.div
-            className="rounded-4xl overflow-hidden"
-          >
+          <motion.div className="rounded-4xl overflow-hidden">
             <Image
               src="/images/lcc-mock-1.jpg"
               alt="lcc-mock-1"
@@ -162,9 +160,7 @@ const Featured = () => {
               </div>
             </div>
           </motion.div>
-          <motion.div
-            className="md:col-span-2 rounded-4xl overflow-hidden relative"
-          >
+          <motion.div className="md:col-span-2 rounded-4xl overflow-hidden relative">
             <Image
               src="/images/bolt-mock-1.jpg"
               alt="bolt-mock-1"
