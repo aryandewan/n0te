@@ -84,7 +84,7 @@ const MyProjects = ({ projects }) => {
     }, []);
 
     return (
-        <section className="w-full min-h-dvh bg-[#121312] overflow-hidden cursor-default">
+        <section className="w-full min-h-dvh bg-[#121312] overflow-hidden cursor-default no-scrollbar">
             <div className="grid grid-cols-5 md:grid-cols-7 lg:grid-cols-10 xl:grid-cols-25 grid-rows-1 relative z-10 mb-10">
                 <Link href="/">
                     <div className="w-full h-full flex items-center justify-center rounded-b-full rounded-tr-full bg-[#121312] border-2 border-[#ad0013] xl:rotate-z-180 hover:rotate-z-360 transition-all duration-300 ease-in-out">

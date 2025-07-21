@@ -14,11 +14,7 @@ const projects = [
             "API",
             "Responsive Design"
         ],
-        links: [
-            {
-                github: "https://github.com/aryandewan/grubify",
-            }
-        ]
+        github: "https://github.com/aryandewan/grubify",
     },
     {
         name: "Bolt",
@@ -30,11 +26,7 @@ const projects = [
             "Tailwind CSS",
             "Context API",
         ],
-        links: [
-            {
-                github: "https://github.com/aryandewan/bolt",
-            }
-        ]
+        github: "https://github.com/aryandewan/bolt",
     },
     {
         name: "LiveCodeCollab",
@@ -48,11 +40,22 @@ const projects = [
             "Firebase",
             "Responsive Design"
         ],
-        links: [
-            {
-                github: "https://github.com/aryandewan/LIVECODECOLLAB",
-            }
-        ]
+        github: "https://github.com/aryandewan/LIVECODECOLLAB",
+    },
+    {
+        name: "Kotae-Rebuild",
+        url: "https://kotae-rebuild.vercel.app/",
+        tech: [
+            "NextJS",
+            "Tailwind CSS",
+            "TypeScript",
+            "GSAP",
+            "Framer Motion",
+            "ShadCN",
+            "Responsive Design",
+            "Charts"
+        ],
+        github: "https://github.com/aryandewan/Kotae-rebuild"
     },
     {
         name: "AniX",
@@ -123,4 +126,4 @@ const projects = [
 const Page = () => {
     return <MyProjects projects={projects} />;
 }
-export default Page
+export {Page, projects}

@@ -1,5 +1,50 @@
 import "./globals.css";
 import localFont from "next/font/local";
+import CustomCursor from "@/components/CustomCursor";
+
+const blackout = localFont({
+    src: [
+        {
+            path: './fonts/Blackout.ttf',
+            weight: "400",
+            style: "normal",
+        },
+    ],
+    variable: '--font-blackout',
+})
+
+const pixelbold = localFont({
+    src: [
+        {
+            path: './fonts/04B_30__.ttf',
+            weight: "400",
+            style: "normal",
+        },
+    ],
+    variable: '--font-pixelbold',
+})
+
+const block = localFont({
+    src: [
+        {
+            path: './fonts/block.ttf',
+            weight: "400",
+            style: "normal",
+        },
+    ],
+    variable: '--font-block',
+})
+
+const square = localFont({
+    src: [
+        {
+            path: './fonts/square.otf',
+            weight: "400",
+            style: "normal",
+        },
+    ],
+    variable: '--font-square',
+})
 
 const orbitron = localFont({
     src: [
@@ -165,18 +210,17 @@ const outFit = localFont({
 })
 
 export const metadata = {
-  title: "Aryan Dewan",
+  title: "Aryan - Frontend Developer",
   description: "Portfolio",
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body
-        className={`${orbitron.variable} ${rubik.variable} ${outFit.variable}`}
-      >
-        {children}
-      </body>
-    </html>
+          <html lang="en, jp" className="no-scrollbar">
+              <body className={`${orbitron.variable} ${rubik.variable} ${outFit.variable} ${blackout.variable} ${pixelbold.variable} ${block.variable} ${square.variable}`}>
+                  <CustomCursor/>
+                  {children}
+              </body>
+          </html>
   );
 }
