@@ -1,4 +1,4 @@
-import {Space_Mono, Audiowide, Badeen_Display} from "next/font/google";
+import {Space_Mono, Audiowide} from "next/font/google";
 
 const mono = Space_Mono({
     subsets: ['latin'],
@@ -14,11 +14,4 @@ const audio = Audiowide({
     display: 'swap',
 })
 
-const badeen = Badeen_Display({
-    subsets: ['latin'],
-    weight: ['400'],
-    style: ['normal'],
-    display: 'swap',
-})
-
-export {mono, audio, badeen}
+export {mono, audio}
