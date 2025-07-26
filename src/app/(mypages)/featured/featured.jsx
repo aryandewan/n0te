@@ -4,7 +4,7 @@ import React from "react";
 import { mono } from "@/app/fonts";
 import Image from "next/image";
 import { ArrowUpRight, Dot } from "lucide-react";
-import { projects } from "@/app/(mypages)/projects/page";
+import { projects } from "@/app/(mypages)/projects/projects";
 import Link from "next/link";
 import { Icons } from "@/app/(mypages)/aboutme/aboutme";
 import { motion } from "motion/react";
